@@ -14,7 +14,7 @@ def resist(net):
 
 
 # Test the function with example cases
-print(resist("[20, 30]"))  # should print 22.0
+print(resist("(10, [20, 30])"))  # should print 22.0
 print(resist("[10, (20, 30)]"))  # should print 8.3
 print(resist("([10, 20], (30, 40))"))  # should print 76.7
 print(resist("(1, [12, 4, (1, [10, (2, 8)])])"))  # should print 3.0
